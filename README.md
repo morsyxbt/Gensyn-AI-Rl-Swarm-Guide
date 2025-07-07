@@ -341,8 +341,4 @@ git pull origin main
 ./run_rl_swarm.sh
 ```
 
-```
-
-
-
 **Made with ❤️ by [Morsyxbt](https://x.com/morsyxbt)**
