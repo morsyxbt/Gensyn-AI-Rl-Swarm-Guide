@@ -125,7 +125,7 @@ source .venv/bin/activate
 ./run_rl_swarm.sh
 ```
 
-* Now it will promt you to login: Follow: [1️⃣ How to Login or access  http://localhost:3000/ in VPS? 📶](https://github.com/Mayankgg01/Gensyn-ai-Rl-Swarm_Guide?tab=readme-ov-file#1%EF%B8%8F%E2%83%A3-how-to-login-or-access--httplocalhost3000-in-vps-)
+* Now it will promt you to login: Follow: How to Login or access  http://localhost:3000/ in VPS -Check FAQ 1️⃣ 
 
 * Now It will promt `Would you like to push models you train in the RL swarm to the Hugging Face Hub? [y/N]` Enter `N`
 
@@ -134,12 +134,10 @@ source .venv/bin/activate
 
 ---❗ If U put model manually then it can be cause of terminated❗--- So better to use Default:
 
------->>>If u want to select the model then choose between them: [5️⃣ Choose customised model's](https://github.com/Mayankgg01/Gensyn-ai-Rl-Swarm_Guide/edit/main/README.md#5%EF%B8%8F%E2%83%A3-choose-customised-models)
+------>>>If u want to select the model then choose between them: Choose customised model's -Check FAQ 5️⃣
 
 
-Here we go🚀
-
-Its Done ✅
+Done ✅
 
 It will Generate Logs Soon🙌
 
@@ -343,18 +341,7 @@ git pull origin main
 ./run_rl_swarm.sh
 ```
 
-* Now follow all the process from [5️⃣ Run the swarm Node](https://github.com/Mayankgg01/Gensyn-ai-Rl-Swarm_Guide/edit/main/README.md#5%EF%B8%8F%E2%83%A3-run-the-swarm-node)
-
-* If u got terminated then follow: [6️⃣Resolve Terminated Error](https://github.com/Mayankgg01/Gensyn-ai-Rl-Swarm_Guide/edit/main/README.md#6%EF%B8%8F%E2%83%A3-resolve-terminated-error)
-
-<pre>
 
 ```
 
-Made with ❤️ by Morsyxbt
-
-If U have any issue then open a issue on this repo or Dm me on TG~
-
-Thank U! 👨🏻‍💻    Happy Coding💗
-
-</pre>
+**Made with ❤️ by Morsyxbt**
