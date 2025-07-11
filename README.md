@@ -1,11 +1,11 @@
 <div align="center">
 
-# 💻 Gensyn-ai-Rl-Swarm_Guide {Mac/Linux} 💻
+# 🧩🧩Gensyn-ai-Rl-Swarm_Guide [Mac/Linux]
 
 </div>
 
 
-## Device/System Requirements 🖥️
+## Device/System Requirements
 
 ![image](https://github.com/user-attachments/assets/4fbf23bb-846c-4def-be24-157c51fa0b4e)
 
@@ -17,7 +17,7 @@
 ssh username@ip
 ```
 
-## Pre-Requirements 🛠
+## Pre-Requirements
 
 # Install Python and Other Tools
 
@@ -86,7 +86,7 @@ yarn -v
 
 <div align="center">
 
-# 👨🏻‍💻 Start The Node (Linux/Mac) 
+# Start The Node (Linux/Mac) 
 
 </div>
 
