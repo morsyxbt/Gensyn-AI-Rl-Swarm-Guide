@@ -152,11 +152,103 @@ It will Generate Logs Soon🙌
 screen -r gensyn
 ```
 
+---
+
+## 🧩How To Grab Your Gswarm Role:
+
+**You can do this process both in ubuntu or codespace**
+
+## Step 1. Install Gswarm
+```bash
+# Install Go:
+sudo rm -rf /usr/local/go
+curl -L https://go.dev/dl/go1.22.4.linux-amd64.tar.gz | sudo tar -xzf - -C /usr/local
+echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile
+echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> $HOME/.bash_profile
+source .bash_profile
+go version
+```
+```
+go install github.com/Deep-Commit/gswarm/cmd/gswarm@latest
+```
+
+### Verify Installation
+```
+gswarm --version
+```
+
+## Step 2. Setup Telegram Bot
+
+**1. Create a Telegram Bot:**
+* Chat with [@BotFather](https://t.me/botfather) on Telegram
+* Send `/newbot` and follow the instructions (Choose a name & username)
+* Save the bot token id
+
+ 
+**2. Get Your Chat ID:**
+* Search your new bot username and send 1-2 messages
+* Visit `https://api.telegram.org/botYOUR_BOT_TOKEN/getUpdates` in your browser
+* Replace `YOUR_BOT_TOKEN` with your actual bot token
+* Find your chat ID in the response
+
+**It looks like this:**
+```
+{
+  "ok": true,
+  "result": [
+    {
+      "message": {
+        "message_id": 1893,
+        "from": {
+          "id": 987654321,
+          "is_bot": false,
+          "first_name": "GSwarm",
+          "username": "gswarm_user",
+          "language_code": "en"
+        },
+        "chat": {
+          "id": 987654321,
+          "first_name": "GSwarm",
+          "username": "gswarm_user",
+          "type": "private"
+        },
+        "date": 2873057400,
+        "text": "Hello bot!"
+      }
+    }
+  ]
+}
+```
+* **Extract the Chat ID**: chat id `123456789` like this, you will have your own
+
+
+## Step 3. Run Gswarm Bot
+Run `gswarm` in your terminal now and follow the prompts to enter your bot token, chat ID, and EOA address
+* You'll find **EOA address**  by logging in the [Gensyn Dashboard](https://dashboard.gensyn.ai/)
+
+
+## Step 4. Linking Discord and Telegram
+To link your Discord and Telegram accounts:
+
+**1. Get the verification code:**
+* Go to Discord in `#|swarm-link` channel
+* Type `/link-telegram` (you will be given a code)
+
+
+**2. Verify the code:**
+* Go to your Telegram bot
+* Type `/verify <code>` (replace `<code>` with the code you received)
+
+This will link your Discord and Telegram accounts
+check your role
+**done**
+
+---
 
 
 <div align="center">
 
-#  🛠 FAQ & Troubleshoot 🛠
+#   FAQ & Troubleshoot 
 
 </div>
 
